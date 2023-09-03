@@ -11,7 +11,7 @@ def valreplace(data):
         return data.replace(replace_dict)
 
 add_selectbox = st.sidebar.selectbox( "How would you like to predict?", ("Online", "Batch"))
-st.sidebar.info('This app is created to predict Customer Churn at DQlab Telco')
+st.sidebar.info('**This app is created to predict Customer Churn at DQlab Telco**')
 
 def main():
     st.title("DQLab Telco Customer Churn Prediction") 
