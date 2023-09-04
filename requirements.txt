@@ -1,6 +1,6 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: win-64
-pandas=2.0.3=pypi_0
-sklearn=0.0.post7=pypi_0
-streamlit=1.26.0=pypi_0
+pandas=2.0.3
+sklearn=0.0.post7
+streamlit=1.26.0
