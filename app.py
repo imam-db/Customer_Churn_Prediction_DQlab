@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd 
 import pickle
-import numpy as np
 
 with open('best_model_churn.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
